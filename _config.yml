@@ -1,25 +1,42 @@
-name: null
-favicon: null
-layout_spectrum: 0.43517
-typography_spectrum: 0.80359
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.8243728
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors: []
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 0.5
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose:
   - name: follow
-    item: null
     url: null
+    item: null
+color:
+  saturation: 0.5
+  brandStrength: 0
+  lightness: 0.5
+  brandColors:
+    - '#3A1F53'
+    - '#EADEC5'
+    - '#0A070C'
+    - '#6D5C4B'
+    - '#CDBEA4'
+typography_spectrum: 0.80359
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Roya
